@@ -14,8 +14,7 @@ app.use(express.json({ limit: '10mb' }))
 app.use(cors(
     {
         origin: ["https://my-cart-ecommerce-mern-frontend.vercel.app"],
-        methods: ["POST", "GET"],
-        credentials: true
+        methods: ["POST", "GET", "PATCH"]
     }
 ))
 
