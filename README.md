@@ -9,19 +9,19 @@ MyCart is an ecommerce site developed using the MERN stack (MongoDB, ExpressJS, 
 
 ## Features
 
-- **User Registration:** MyCart allows users to register as customers or sellers, enabling a tailored shopping experience.
+- **User Registration:** MyCart allows users to sign up as either customers or sellers, providing a personalized shopping experience tailored to their role.
 
-- **Cart System:** Customers can add products to their cart for easy checkout. The cart allows them to review and manage their selections before completing the purchase.
+- **Cart System:** Customers can add items to their cart for an easier checkout experience, with options to review and adjust their selections before completing their purchase.
 
-- **Product Search:** MyCart offers a search functionality where customers can find products by name or browse through categories such as Electronics, Clothes, Kitchen, and more.
+- **Product Search:** MyCart features a search tool that enables customers to find products by name or browse categories such as Electronics, Clothing, and Kitchenware.
 
-- **Reviews and Ratings:** Customers can leave reviews and ratings (out of 5) for products they've purchased, providing valuable feedback for sellers and building trust within the community.
+- **Reviews and Ratings:** Customers can leave reviews and rate products on a 5-star scale, offering valuable feedback to sellers and enhancing community trust.
 
-- **Seller Dashboard:** Sellers have access to a dedicated dashboard where they can manage their products, view sales data, and gain insights into their store's performance through data visualization.
+- **Seller Dashboard:** Sellers have access to a dedicated dashboard to manage their inventory, track sales metrics, and analyze store performance using data visualization tools (note: actual numbers are not yet displayed).
 
-- **Product Management:** Sellers can add products with detailed information and set their prices. They can also check which customers have added their products to their carts.
+- **Product Management:** Sellers can add products with detailed descriptions and set prices, as well as see which customers have added their items to their carts.
 
-- **Order Tracking:** Sellers can monitor the products ordered by customers, helping them stay organized and fulfill orders efficiently.
+- **Order Tracking:** Sellers can monitor customer orders to stay organized and efficiently manage the fulfillment process.
 
 ## Technologies Used
 
