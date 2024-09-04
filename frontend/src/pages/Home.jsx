@@ -51,22 +51,22 @@ const Home = () => {
 
       {showNetworkError ? (
         <StyledContainer>
-          <h1>Sorry, network error.</h1>
+          <h1>Sorry, network issue.</h1>
         </StyledContainer>
       ) : error ? (
         <StyledContainer>
-          <h1>Please Wait A Second</h1>
-          <NewtonsCradle size={70} speed={1.4} color="black" />
+          <h1>Please Wait A Second, While Wo Load Your Feed</h1>
+          <NewtonsCradle size={60} speed={1.6} color="black" />
         </StyledContainer>
       ) : (
         <>
           {responseProducts ? (
             <>
-              <StyledContainer>No products found right now</StyledContainer>
+              <StyledContainer>No products found right yet</StyledContainer>
               <StyledContainer>
-                Become a seller to add products
+                Become a Retailer/Vendor to add products by registering
                 <Link to={"/Sellerregister"}>
-                  Join
+                  Register
                 </Link>
               </StyledContainer>
             </>
