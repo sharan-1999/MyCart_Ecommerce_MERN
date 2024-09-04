@@ -81,7 +81,7 @@ const Home = () => {
                   <img src={adURL} alt="" style={{ width: 217 }} />
                 </RightComponent>
               </Component>
-
+              <Slide products={productData} title="Top Selection" />
               <Slide products={productData} title="Deals of the Day" />
               <Slide products={productData} title="Suggested Items" />
               <Slide products={productData} title="Discounts for You" />
@@ -106,7 +106,7 @@ const StyledContainer = styled(Container)`
 
 const BannerBox = styled(Box)`
   padding: 20px 10px;
-  background: #F2F2F2;
+  background: #d8e8eb;
 `;
 
 const Component = styled(Box)`
