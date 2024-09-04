@@ -173,13 +173,13 @@ const Navbar = () => {
                                         navigate("/Customerlogin")
                                         handleCloseNavMenu()
                                     }}>
-                                        <Typography textAlign="center">Sign in as customer</Typography>
+                                        <Typography textAlign="center">Sign-in as Customer</Typography>
                                     </MenuItem>
                                     <MenuItem onClick={() => {
                                         navigate("/Sellerlogin")
                                         handleCloseNavMenu()
                                     }}>
-                                        <Typography textAlign="center">Sign in as seller</Typography>
+                                        <Typography textAlign="center">Sign-in as Vendor</Typography>
                                     </MenuItem>
                                 </Menu>
                             </>
