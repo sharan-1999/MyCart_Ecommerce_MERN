@@ -37,7 +37,7 @@ const Slide = ({ products, title }) => {
                 itemClass="carousel-item-padding-40-px">
                 {
                     products.map((product, index) => (
-                        <Link key={index} to={`/product/view/${product._id}`} style={{ textDecoration: 'none' }}>
+                        <Link key={index} to={`/product/view/${product._id}`} style={{ textDecoration: 'none', padding: '25px 12px' }}>
                             <Box textAlign="center" style={{ padding: '25px 15px' }}>
                                 <Image src={product.productImage} />
                                 <TitleText style={{ fontWeight: 700, color: '#212121' }}>{product.productName}</TitleText>
