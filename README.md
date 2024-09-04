@@ -5,7 +5,7 @@
 
 # About
 
-MyCart is an ecommerce site developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It offers a user-friendly and efficient shopping experience for customers, while providing sellers with essential tools to manage their products and sales.
+MyCart is an ecommerce site developed using the MERN stack (MongoDB, ExpressJS, ReactJS, Node.JS). It delivers an intuitive and streamlined shopping experience for buyers, while equipping sellers with vital tools to handle their inventory and transactions effectively.
 
 ## Features
 
@@ -25,53 +25,60 @@ MyCart is an ecommerce site developed using the MERN (MongoDB, Express.js, React
 
 ## Technologies Used
 
-- Frontend: React.js, Material UI, Redux Toolkit, Styled Components
+- Frontend: React.js, Redux Toolkit, Styled Components
 - Backend: Node.js, Express.js, JWT Token
 - Database: MongoDB
-- Data Visualization: React Apexcharts
 
 <br>
 
 # Installation
 
 ```sh
-git clone https://github.com/Yogndrr/MERN-Ecommerce-Site.git
+git clone https://github.com/sharan-1999/MyCart_Ecommerce_MERN.git
 ```
 Open 2 terminals in separate windows/tabs.
 
-Terminal 1: Setting Up Backend 
+Setting Up Backend - Open a new terminal 1
 ```sh
 cd backend
 npm install
-npm start
+npm run start
 ```
 
 Create a file called .env in the backend folder.
 Inside it write this :
 
 ```sh
-MONGO_URL = mongodb://127.0.0.1/ecommerce
+MONGO_URL = mongodb+srv://Eshop:fXyGOcS8aO1DPcAi@atlascluster.gvpcocm.mongodb.net/
 
 SECRET_KEY = 'secret-key'
 ```
-Instead of this link write your database link.
+Use your own MongoDB atlas link for MONGO_URL.
 
-Terminal 2: Setting Up Frontend
+Setting Up frontend - Open a new terminal 2
 ```sh
 cd frontend
 npm install
-npm start
+npm run start
 ```
-Now, navigate to `localhost:3000` in your browser. 
-The Backend API will be running at `localhost:5000`.
+Now, navigate to `localhost:3000` in the browser to check our frontend application. 
+While Backend API will be running at `localhost:5000`.
+<br>
+
+Create a file called .env in the frontend folder.
+Inside it write this :
+
+```sh
+REACT_APP_BASE_URL = "http://localhost:5000"
+```
 <br>
 # Error Solution
 
-If you encounter a network error while signing up, follow these steps to resolve it:
+If you find/get any error while signing up new user, follow these steps to resolve it:
 
-1. Navigate to the `src > redux > userHandle.js` file.
+1. Open to the `src > redux > userHandle.js` file.
 
-2. Add the following line after the import statements:
+2. Add the below code after the import statements under `userHandle.js`:
 
 ```javascript
 const REACT_APP_BASE_URL = "http://localhost:5000";
@@ -79,8 +86,7 @@ const REACT_APP_BASE_URL = "http://localhost:5000";
 
 3. Replace all instances of `process.env.REACT_APP_BASE_URL` with `REACT_APP_BASE_URL`.
 
-The issue arises because the `.env` file in the frontend may not work for all users, while it works for me.
-
-These steps should resolve the network error in the frontend.
+This issue might arise due the `.env` file at the frontend, which might work in some cases.
+The above steps must resolve the error caused due to AXIOS while signing up new user.
 
 
