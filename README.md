@@ -19,7 +19,7 @@ MyCart is an ecommerce site developed using the MERN stack (MongoDB, ExpressJS, 
 
 - **Seller Dashboard:** Sellers have access to a dedicated dashboard to manage their inventory, track sales metrics, and analyze store performance using data visualization tools (note: actual numbers are not yet displayed).
 
-- **Product Management:** Sellers can add products with detailed descriptions and set prices, as well as see which customers have added their items to their carts.
+- **Product Management:** Sellers can their list products with comprehensive descriptions and set their prices with discounts, while also tracking which customers have added their items to their shopping carts.
 
 - **Order Tracking:** Sellers can monitor customer orders to stay organized and efficiently manage the fulfillment process.
 
