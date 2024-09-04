@@ -43,9 +43,12 @@ const Slide = ({ products, title }) => {
                                 <TitleText style={{ fontWeight: 700, color: '#212121' }}>{product.productName}</TitleText>
                                 <Text style={{ color: '#212121', opacity: '.6' }}>{product.tagline}</Text>
                                 <TextContainer>
-                                    <Text style={{ color: '#525050', textDecoration: "line-through" }}>₹{product.price.mrp}</Text>
-                                    <Text>₹{product.price.cost}</Text>
-                                    <Text style={{ color: 'green', fontSize: 10}}>{product.price.discountPercent}% OFF</Text>
+                                    <Text style={{ color: 'blue', fontSize: 17, fontWeight: 'bold'}}>₹{product.price.cost}</Text>
+                                    <Text style={{ color: 'green', fontSize: 8}}>{product.price.discountPercent}% OFF</Text>
+                                </TextContainer>
+                                <TextContainer>
+                                    <Text style={{ color: '#525050', fontSize: 12}}>MRP:</Text>
+                                    <Text style={{ color: '#525050', textDecoration: "line-through", fontSize: 12 }}>₹{product.price.mrp}</Text>
                                 </TextContainer>
                                 
                             </Box>
