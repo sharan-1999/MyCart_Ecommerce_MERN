@@ -81,7 +81,7 @@ const Home = () => {
                   <img src={adURL} alt="" style={{ width: 217 }} />
                 </RightComponent>
               </Component>
-              <Slide products={productData} title="Top Selection" />
+
               <Slide products={productData} title="Deals of the Day" />
               <Slide products={productData} title="Suggested Items" />
               <Slide products={productData} title="Discounts for You" />
