@@ -72,16 +72,7 @@ const Home = () => {
             </>
           ) : (
             <>
-              <Component>
-                <LeftComponent>
-                  <Slide products={productData} title="Top Selection" />
-                </LeftComponent>
-
-                <RightComponent>
-                  <img src={adURL} alt="" style={{ width: 217 }} />
-                </RightComponent>
-              </Component>
-
+              <Slide products={productData} title="Top Selection" />
               <Slide products={productData} title="Deals of the Day" />
               <Slide products={productData} title="Suggested Items" />
               <Slide products={productData} title="Discounts for You" />
@@ -109,25 +100,4 @@ const BannerBox = styled(Box)`
   background: #d8e8eb;
 `;
 
-const Component = styled(Box)`
-  display: flex;
-`;
 
-const LeftComponent = styled(Box)(({ theme }) => ({
-  width: '83%',
-  [theme.breakpoints.down('md')]: {
-    width: '100%',
-  },
-}));
-
-const RightComponent = styled(Box)(({ theme }) => ({
-  marginTop: 10,
-  background: '#FFFFFF',
-  width: '17%',
-  marginLeft: 10,
-  padding: 5,
-  textAlign: 'center',
-  [theme.breakpoints.down('md')]: {
-    display: 'none',
-  },
-}));
