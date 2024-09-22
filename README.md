@@ -7,7 +7,7 @@
 
 MyCart is an ecommerce site developed using the MERN stack (MongoDB, ExpressJS, ReactJS, Node.JS). It delivers an intuitive and streamlined shopping experience for buyers, while equipping sellers with vital tools to handle their inventory and transactions effectively.
 
-## Find the Demo Website at
+## Find the Hosted Website at
 
 - 👉 Vercel : https://my-cart-ecommerce-mern-frontend.vercel.app/
 
